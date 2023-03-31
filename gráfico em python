@@ -1,0 +1,14 @@
+import matplotlib.pyplot as mb
+
+x = [1,2,5,8,10]
+y = [0,1,4,9,20]
+
+mb.plot(x, y, label='dados')
+mb.ylabel("Qauntidade de pessoas")
+mb.xlabel("registros de óbitos")
+mb.title("Ocorrências de suícidio em 02/2023")
+mb.xticks([0,1,2,3,4,5,6,7,8,9,10])
+mb.yticks([0,2,4,6,8,10,12,14,16,18,20])
+
+mb.legend()
+mb.show()
